@@ -1,0 +1,26 @@
+.gap{
+    display: grid;
+    /* grid-template-columns: repeat(6,1fr); */
+    grid-auto-flow: column;
+    align-items: end
+}
+.title-1{
+    font-size: 110%;
+    text-transform: uppercase;
+    
+}
+.title{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.title-1::marker{
+    font-size: 20px;
+}
+.title-1:before{
+    content: "\2022"; 
+    font-size: 20px; 
+    padding-right: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+}
